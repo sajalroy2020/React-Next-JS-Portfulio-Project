@@ -1,26 +1,39 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+.bg-img{
+    background-image: url(../public/img/1.jpg); 
+    background-size: cover; 
+    background-position: center;
+}
+body{
+    font-family: 'Nunito', sans-serif !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.c1-img{
+    background-image: url(../public/img/c1.png);
+    background-size: cover; 
+    background-position: center;
 }
-
-* {
-  box-sizing: border-box;
+.c2-img{
+    background-image: url(../public/img/c2.png);
+    background-size: cover; 
+    background-position: center;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.c3-img{
+    background-image: url(../public/img/c3.png);
+    background-size: cover; 
+    background-position: center;
+}
+.c4-img{
+    background-image: url(../public/img/c4.png);
+    background-size: cover; 
+    background-position: center;
+}
+.active{
+    color: #f75023;
 }
