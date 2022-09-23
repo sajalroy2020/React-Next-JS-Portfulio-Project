@@ -1,4 +1,6 @@
-export default function PortfolioImg({image,mainTitle,subTitle}){
+export default function PortfoCard({item}){
+
+    let {id, mainTitle, subTitle, image} = item;
     return(
         <>
             <div className="lg:w-1/3 w-full px-4 pt-20">

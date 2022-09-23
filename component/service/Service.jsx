@@ -1,3 +1,4 @@
+import Slider from "../testimonial_slider/Slider";
 export default function Service(){
     return(
         <div className="bg-gray-50 py-32">
@@ -71,6 +72,7 @@ export default function Service(){
                     </div>
                 </div>
             </div>
+            <Slider/>
         </div>
     )
 }

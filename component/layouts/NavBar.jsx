@@ -26,9 +26,8 @@ export default function Header() {
       else ""
     }
 
-
   return (
-    <div className="bg-img">
+    <div className="bg-img sticky top-0 z-50">
         <div className="container mx-auto">
           <div className="flex flex-wrap py-5">
               <div className="lg:w-1/4 w-full px-4 lg:flex hidden items-center">

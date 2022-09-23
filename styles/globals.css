@@ -37,3 +37,32 @@ body{
 .active{
     color: #f75023;
 }
+.active2{
+    color: #f75023;
+}
+.awssld.awssld--organic-arrows {
+    height: 350px;
+    width: 775px;
+}
+.awssld__content {
+    background-color: transparent !important;
+}
+span.awssld__controls__arrow-left {
+    right: 10px;
+}
+span.awssld__controls__arrow-right {
+    height: 20px;
+}
+span.awssld__controls__arrow-left {
+    height: 20px;
+}
+.awssld__bullets button {
+    background-color: #f75023 !important;
+}
+
+@media (max-width: 768px) {
+    .awssld.awssld--organic-arrows {
+        height: 450px;
+        width: 475px;
+    }
+}
