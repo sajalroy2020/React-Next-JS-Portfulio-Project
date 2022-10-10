@@ -1,9 +1,9 @@
 import Image from "next/image";
 export default function Banner(){
     return(
-        <div className="bg-img">
+        <div className="bg-img translate-y-[-6rem]">
             <div classNameName="container mx-auto px-4">
-                <div className="flex flex-wrap py-16">
+                <div className="flex flex-wrap pb-12 pt-40">
                     <div className="lg:w-1/2 w-full px-4 flex justify-center lg:hidden">
                         <div className=" flex justify-center">
                             {/* <img className="w-80 mx-auto rounded-full" src="/img/avatar.png" alt=""/> */}

@@ -5,6 +5,11 @@
 html {
     scroll-behavior: smooth;
 }
+.head_bg{
+    background-color: rgb(51, 50, 50);
+    color: #fff;
+    transition: 0.5s !important;
+}
 .bg-img{
     background-image: url(../public/img/1.jpg); 
     background-size: cover; 
